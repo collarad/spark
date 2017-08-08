@@ -69,6 +69,8 @@ object WikipediaRanking {
 
   def main(args: Array[String]) {
 
+    System.setProperty("hadoop.home.dir", "C:\\DIC\\Servers\\Hadoop\\")
+
     println("Starting Wikipedia Rank Analysis")
 
     /* Languages ranked according to (1) */
